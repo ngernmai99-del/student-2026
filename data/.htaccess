@@ -1,0 +1,9 @@
+# ປ້ອງກັນບໍ່ໃຫ້ດາວໂຫຼດໄຟລ໌ຖານຂໍ້ມູນ SQLite ແລະ Session ຜ່ານ Browser ໂດຍກົງ
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>
+

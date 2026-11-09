@@ -1,0 +1,5 @@
+# Ignore temporary session files and SQLite WAL/SHM lock files
+data/sessions/sess_*
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/xlsx_*
